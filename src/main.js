@@ -3,10 +3,11 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import animate from 'animate.css';
 
 import { Button, Cell, CellGroup } from 'vant'   //引入有赞
 Vue.use(Button).use(Cell).use(CellGroup);
-
+Vue.use(animate)
 Vue.config.productionTip = false;
 
 /* eslint-disable no-new */
